@@ -7,7 +7,7 @@ use DB;
 use Session;
 use Illuminate\Support\Facades\Redirect;
 
-session_start();
+
 
 class SuperAdminController extends Controller
 {
