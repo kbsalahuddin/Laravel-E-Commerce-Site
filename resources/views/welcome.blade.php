@@ -236,7 +236,7 @@
         </div><!--/header-bottom-->
     </header><!--/header-->
     
-@yield('slider')
+@stack('slider')
     
     <section>
         <div class="container">
