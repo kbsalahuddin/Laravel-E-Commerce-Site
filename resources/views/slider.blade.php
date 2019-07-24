@@ -1,3 +1,4 @@
+@push('slider')
 <?php 
     $allSliderInfo=DB::table('sliders')
     ->where('sliderStatus','published')
@@ -39,3 +40,4 @@
      </div>
  </section>
  <!-- end slide section -->
+ @endpush
